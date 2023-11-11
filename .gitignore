@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+/public
 
 # testing
 /coverage
@@ -19,6 +20,9 @@
 # misc
 .DS_Store
 *.pem
+.eslintrc.json
+/postcss.config.js
+
 
 # debug
 npm-debug.log*

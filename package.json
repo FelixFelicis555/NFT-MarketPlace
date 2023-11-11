@@ -9,15 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.17",
+    "@openzeppelin/contracts": "^5.0.0",
+    "axios": "^1.6.1",
+    "ethers": "^6.8.1",
+    "ipfs-http-client": "^60.0.1",
+    "mongodb": "^6.2.0",
+    "next": "14.0.2",
+    "next-connect": "^1.0.0",
     "react": "^18",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18",
-    "next": "14.0.2"
+    "web3modal": "^1.9.12",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "chai": "^4.3.10",
     "eslint": "^8",
-    "eslint-config-next": "14.0.2"
+    "eslint-config-next": "14.0.2",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.19.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
