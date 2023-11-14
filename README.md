@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- # NFT-Marketing Dapp
+### Setting up the application in local system
 
+
+- Clone the repository in your local system and open in an ide (eg: VS Code)
+- Ensure node and npm are installed in your system
+- Run command ``` npm install ```
+- To compile the contracts, Run command ```npx hardhat compile```
+- To get dummy accounts, Run command ```npx hardhat node```
+- To get local network, Run command ```npx hardhat run scripts/deploy.js --network localhost```
+- Add .env file with mongoDB data
+- connect wallet with localhost network
+For the further steps, you need to install metamask extension in your browser(preffered chrome)
+After adding and setting up metamask extension in your browser, add a local network in metamask.
+[Follow this link](https://stackoverflow.com/a/68814079/15968090) -->
+# NFT-MarketPlace
+## [Presentation]()
+## [Report]() 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77429981/162573406-7a3aab05-26f5-4d5b-ae40-f1cc0380e421.svg" />
+</p>
+
+<!-- ![Group 3](https://user-images.githubusercontent.com/77429981/162573406-7a3aab05-26f5-4d5b-ae40-f1cc0380e421.svg) -->
+We have built a marketplace for the people who cherish the uniqueness of an asset and like to own it.
+Merging the power of blockchain technology and the idea of uniqueness, we have built an NFT Marketplace. NFT stands for Non-Fungible Tokens. NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated. "Tokenizing" these real-world tangible assets makes buying, selling, and trading them more efficient while reducing the probability of fraud. 
+
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
+
+<!-- ## About The Project -->
+![Screenshot from 2022-04-05 17-36-27](https://user-images.githubusercontent.com/77429981/162359827-87c01a68-1700-40bf-87c2-4edd1c1b8141.png)
+
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+
+## Features
+- Create a NFT
+- Sell a NFT
+- Buy a NFT
+- Resell a NFT
+
+![Screenshot from 2022-04-05 17-26-41](https://user-images.githubusercontent.com/77429981/162359914-6a0d4b00-0916-4be6-b747-28101c733c2f.png)
+
+## Built With
+
+* [Next.js](https://nextjs.org/)
+* [Etherium](https://ethereum.org/en/)
+* [Hardhat](https://hardhat.org/)
+* [Solidity](https://docs.soliditylang.org/)
+* [MongoDB](https://www.mongodb.com/)
+* [Cloudinary](https://cloudinary.com/)
+
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
+Fork and clone this repository in your local system.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
+* npm
+  ```sh
+  npm install
+  ```
+* Hardhat
+  
+  - To compile the contracts, Run command ```npx hardhat compile```
+  - To get dummy accounts, Run command ```npx hardhat node```
+  - To get local network, Run command ```npx hardhat run scripts/deploy.js --network localhost```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Create account on MongoDB and save its credentials in .env file  ``` MONGODB_URI and MONGODB_DB  ```
+* Store DB username and password in config.js 
+ ``` dbusername and dbpassword ```
+* Connect wallet with localhost network
+  - For the further steps, you need to install metamask extension in your browser(preffered chrome) After adding and setting up metamask extension in your browser, add a local network in metamask. [Link](https://stackoverflow.com/a/68814079/15968090)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### Run application
+- Run commands ```npm run dev```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Final View of Project
 
-To learn more about Next.js, take a look at the following resources:
+#### 1. Home
+![Home](https://user-images.githubusercontent.com/77429981/162573961-28a75610-e396-4a82-b9ee-a26393a36ee7.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Sell Asset
+![Create_NFT_wallet](https://user-images.githubusercontent.com/77429981/162574004-1f580c59-404d-410d-8cb5-583a84c8732d.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 3. My Collection
+![Screenshot from 2022-04-05 18-47-52](https://user-images.githubusercontent.com/77429981/162574040-3b73bc6e-f4bf-425c-bcfd-72fdf05d7e32.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 4. Dashboard
+![Screenshot from 2022-04-05 17-36-56](https://user-images.githubusercontent.com/77429981/162574048-38ba3245-48ff-418e-bca1-b16bb750958c.png)
